@@ -1,0 +1,16 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+class_selection_screen_type = "RPG_SERIES"
+empty_upgrade_mode = "NON_EMPTY_GROUPS"
+show_invalid_upgrade_entries = false
+disable_skill_tree_rpg_series = true
+
+[hotkeySettings]
+enable_class_selection_hotkey = true
+allow_changing_class = true
+allow_changing_upgrades = true
+
+[firstJoinScreenSettings]
+enable_first_join_class_selection = true
+allow_changing_class = true
+allow_changing_upgrades = true

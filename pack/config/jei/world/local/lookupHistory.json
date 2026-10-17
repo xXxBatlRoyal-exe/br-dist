@@ -1,0 +1,19 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"takesapillage:clay_golem_spawn_egg"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sophisticatedcore:xp_bucket"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:tipped_arrow","components":{"minecraft:potion_contents":{"potion":"mutantmonsters:chemical_x"}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:potion","components":{"minecraft:potion_contents":{"potion":"minecraft:thick"}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:potion","components":{"minecraft:potion_contents":{"potion":"mutantmonsters:chemical_x"}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"iceandfire:spawn_egg_troll"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"iceandfire:troll_leather_frost"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"iceandfire:frost_troll_leather_chestplate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"iceandfire:troll_tusk"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"iceandfire:frost_troll_leather_helmet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"iceandfire:dragonscales_electric"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"iceandfire:armor_electric_chestplate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mutantmonsters:mutant_skeleton_shoulder_pad"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mutantmonsters:mutant_skeleton_limb"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mutantmonsters:mutant_skeleton_arms"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mutantmonsters:mutant_skeleton_chestplate"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

@@ -1,0 +1,6 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "minecraft:item/dungeon_armor_token_boots_t3"
+	}
+}

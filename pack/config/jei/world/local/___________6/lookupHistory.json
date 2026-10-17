@@ -1,0 +1,10 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"iceandfire:dragonbone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:beef"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"iceandfire:ambrosia"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"iceandfire:pixie_dust"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"illagerinvasion:platinum_sheet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"illagerinvasion:platinum_chunk"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:potion","components":{"minecraft:potion_contents":{"potion":"minecraft:awkward","custom_color":16754964,"custom_effects":[{"id":"minecraft:instant_health","show_icon":true},{"id":"minecraft:speed","show_icon":true,"amplifier":2,"duration":40}]},"minecraft:custom_name":"{\"color\":\"gold\",\"italic\":false,\"text\":\"Estus Flask\"}"}},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

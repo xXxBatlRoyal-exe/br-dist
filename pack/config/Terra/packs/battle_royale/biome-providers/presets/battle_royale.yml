@@ -1,0 +1,103 @@
+####################################################################
+# Battle Royale biome distribution
+####################################################################
+#
+# Layout (all distances are radius from world spawn 0,0):
+#
+#            N (SNOWY_PLAINS)
+#                  |
+#     W (SWAMP) --- + --- E (JUNGLE)
+#                  |
+#            S (DESERT)
+#
+# Opposite pairs: SNOWY_PLAINS <-> DESERT, JUNGLE <-> SWAMP (per user request).
+#
+#     r 0-65    PLAINS        (island interior)
+#     r 65-95   PALM_BEACH    (island coastline, 30 blocks wide)
+#     r 95-145  OCEAN         (the 50-block-wide water ring)
+#     r 145+    one of the 4 biomes above, split into 90-degree
+#               wedges centered on North/East/South/West.
+#
+# How this works:
+#   - A weighted list of biomes fed a NoiseSampler picks entry
+#     `index = floor(((sample+1)/2) * totalWeight)`, in the ORDER the
+#     entries are written here (see ProbabilityCollection.get() in
+#     Terra's biome-provider-pipeline addon).
+#   - The `source` below uses a DISTANCE sampler with `normalize: true`,
+#     which outputs exactly -1 at the center point and +1 at `radius`
+#     blocks away, scaling linearly in between.
+#   - The `land` entry is a placeholder (lowercase = not a real biome
+#     id), which the REPLACE stage further down splits into the 4
+#     directional biomes using an EXPRESSION sampler computing the
+#     compass angle from world center (atan2(z, x)), shifted by 45
+#     degrees so each of the 4 equal-weight slices is centered on a
+#     cardinal direction instead of a diagonal.
+#
+# IMPORTANT - "weight" here does NOT equal real world blocks 1:1:
+#   The exact addon build shipped in this modpack (an older,
+#   pre-rewrite version of biome-provider-pipeline, identified from the
+#   jar's build hash b7326c0ff - current Terra on GitHub has since
+#   rewritten this addon entirely) applies extra internal downsampling
+#   that isn't documented anywhere. Measured in-game via F3 on the real
+#   world:
+#     weight 65 -> 252 actual blocks   (x3.88)
+#     weight 15 -> 59 actual blocks    (x3.93)
+#     weight 50 -> 200 actual blocks   (x4.00)
+#   This fits an almost-exact line: actual_blocks = 4*weight - 9.
+#   The weights below are back-solved from that formula so the REAL
+#   in-game rings land close to their intended radii (see layout above).
+#   This does NOT affect the compass-direction split further down
+#   (atan2 ratios are scale-invariant, confirmed by the desert edge
+#   landing exactly where the ocean's measured edge was).
+#
+# To change which biome faces which direction: just reorder the 4
+# entries in the `to:` list of the REPLACE stage below - the comments
+# there mark which entry is which direction.
+#
+# To resize the island / water ring: use weight = (desired_real_blocks + 9) / 4,
+# then set `radius` to the new sum of the first 3 weights + the `land` weight.
+
+biomes:
+  type: PIPELINE
+  resolution: 2
+  blend:
+    # A small amount of jitter so biome edges aren't perfectly straight
+    # rulers. Set amplitude to 0 (or delete this block) for perfectly
+    # crisp/fair geometric boundaries instead.
+    amplitude: 2
+    sampler:
+      type: WHITE_NOISE
+
+  pipeline:
+    source:
+      type: SAMPLER
+      sampler:
+        type: DISTANCE
+        distance-function: Euclidean
+        point:
+          x: 0
+          z: 0
+        normalize: true
+        radius: 10039 # = 19 + 7 + 13 + 10000, see biomes list below
+      biomes:
+        - PLAINS: 19        # ~r 0-65:    island interior
+        - PALM_BEACH: 7     # ~r 65-95:   island coastline (30 wide)
+        - OCEAN: 13         # ~r 95-145:  the water ring
+        - land: 10000       # ~r 145+:    placeholder, split into 4 below
+
+    stages:
+      - type: REPLACE
+        from: land
+        sampler:
+          type: EXPRESSION
+          # Compass angle from world center (0,0), remapped so a value of
+          # -1..1 sweeps N -> E -> S -> W -> (back to N), each occupying
+          # an exact quarter of the range (verified against
+          # MathUtil.normalizeIndex, which is what this build's REPLACE
+          # stage uses to turn this value into a list index).
+          expression: (atan2(z, x) - pi/4 - 2*pi*floor((atan2(z, x) - pi/4 + pi) / (2*pi))) / pi
+        to:
+          - SNOWY_PLAINS: 1  # North
+          - JUNGLE: 1        # East
+          - DESERT: 1        # South
+          - SWAMP: 1         # West

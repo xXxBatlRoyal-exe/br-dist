@@ -1,0 +1,135 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = title_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1792224000000
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_singleplayer_button
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_multiplayer_button
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_realms_button
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = modmenu_titlescreen_mods_button
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_language_button
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_accessibility_button
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_splash_widget
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_realms_notification_icons_widget
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_branding_widget
+  is_hidden = true
+}
+
+# language + accessibility icon buttons: FancyMenu ids are "<x><y>" at a 1000x1000 reference screen (no stable names)
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = 376382
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = 604382
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = 376394
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = 604394
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = 376406
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = 604406
+  is_hidden = true
+}
+element {
+  element_type = custom_button
+  instance_identifier = br_play_button
+  custom_element_layer_name = Play (joins the BR server)
+  anchor_point = element
+  anchor_point_element = mc_titlescreen_options_button
+  x = 0
+  y = -34
+  width = 200
+  height = 28
+  label = §l§6ИГРАТЬ
+  hoverlabel = §l§e▶ ИГРАТЬ ◀
+  description = Зайти на сервер xXxBatlRoyal.exe
+  [executable_action_instance:br_play_join][action_type:joinserver] = localhost
+}
+
+element {
+  element_type = custom_button
+  instance_identifier = br_singleplayer_button
+  custom_element_layer_name = Singleplayer (small square, left of Options)
+  anchor_point = element
+  anchor_point_element = mc_titlescreen_options_button
+  x = -24
+  y = 0
+  width = 20
+  height = 20
+  label = Т
+  description = Одиночная игра (для тестов)
+  [executable_action_instance:br_sp_open][action_type:opengui] = select_world_screen
+}
+

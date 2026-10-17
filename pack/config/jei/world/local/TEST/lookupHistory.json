@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"archers:royal_longbow","components":{"minecraft:enchantments":{"levels":{"critical_strike:damage":3,"minecraft:unbreaking":3}}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"bosses_of_mass_destruction:void_thorn"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

@@ -1,0 +1,201 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+show_armor_bar = true
+slots_with_unusable_items_have_overlay = true
+slots_with_loadout_items_have_overlay = true
+slots_with_not_owned_items_have_overlay = true
+slots_with_advancement_locked_items_have_overlay = true
+sheathed_hand_item_positions = [
+    [ "minecrawl:spell_casting_crossbow_9", { initial_translation_x = -0.3, initial_translation_y = 0.2, initial_translation_z = 0.16, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 165.0, rotation_positive_y = 180.0, rotation_positive_x = -90.0 } ],
+    [ "minecrawl:spell_casting_crossbow_8", { initial_translation_x = -0.3, initial_translation_y = 0.2, initial_translation_z = 0.16, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 165.0, rotation_positive_y = 180.0, rotation_positive_x = -90.0 } ],
+    [ "minecrawl:spell_casting_crossbow_7", { initial_translation_x = -0.3, initial_translation_y = 0.2, initial_translation_z = 0.16, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 165.0, rotation_positive_y = 180.0, rotation_positive_x = -90.0 } ],
+    [ "minecrawl:spell_casting_crossbow_6", { initial_translation_x = -0.3, initial_translation_y = 0.2, initial_translation_z = 0.16, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 165.0, rotation_positive_y = 180.0, rotation_positive_x = -90.0 } ],
+    [ "minecrawl:spell_casting_crossbow_5", { initial_translation_x = -0.3, initial_translation_y = 0.2, initial_translation_z = 0.16, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 165.0, rotation_positive_y = 180.0, rotation_positive_x = -90.0 } ],
+    [ "minecrawl:spell_casting_crossbow_4", { initial_translation_x = -0.3, initial_translation_y = 0.2, initial_translation_z = 0.16, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 165.0, rotation_positive_y = 180.0, rotation_positive_x = -90.0 } ],
+    [ "minecrawl:spell_casting_crossbow_3", { initial_translation_x = -0.3, initial_translation_y = 0.2, initial_translation_z = 0.16, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 165.0, rotation_positive_y = 180.0, rotation_positive_x = -90.0 } ],
+    [ "minecrawl:spell_casting_crossbow_2", { initial_translation_x = -0.3, initial_translation_y = 0.2, initial_translation_z = 0.16, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 165.0, rotation_positive_y = 180.0, rotation_positive_x = -90.0 } ],
+    [ "minecrawl:spell_casting_crossbow_1", { initial_translation_x = -0.3, initial_translation_y = 0.2, initial_translation_z = 0.16, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 165.0, rotation_positive_y = 180.0, rotation_positive_x = -90.0 } ],
+    [ "archers:aether_longbow", { initial_translation_x = 0.1, initial_translation_y = 0.3, initial_translation_z = 0.24, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 45.0, rotation_positive_y = -100.0, rotation_positive_x = -100.0 } ],
+    [ "archers:rapid_crossbow", { initial_translation_x = -0.3, initial_translation_y = 0.2, initial_translation_z = 0.16, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 165.0, rotation_positive_y = 180.0, rotation_positive_x = -90.0 } ],
+    [ "archers:netherite_shortbow", { initial_translation_x = 0.1, initial_translation_y = 0.3, initial_translation_z = 0.24, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 45.0, rotation_positive_y = -100.0, rotation_positive_x = -100.0 } ],
+    [ "archers:crystal_shortbow", { initial_translation_x = 0.1, initial_translation_y = 0.3, initial_translation_z = 0.24, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 45.0, rotation_positive_y = -100.0, rotation_positive_x = -100.0 } ],
+    [ "archers:crystal_longbow", { initial_translation_x = 0.1, initial_translation_y = 0.3, initial_translation_z = 0.24, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 45.0, rotation_positive_y = -100.0, rotation_positive_x = -100.0 } ],
+    [ "minecraft:bow", { initial_translation_x = 0.1, initial_translation_y = 0.3, initial_translation_z = 0.24, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 45.0, rotation_positive_y = -100.0, rotation_positive_x = -100.0 } ],
+    [ "archers:royal_longbow", { initial_translation_x = 0.1, initial_translation_y = 0.3, initial_translation_z = 0.24, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 45.0, rotation_positive_y = -100.0, rotation_positive_x = -100.0 } ],
+    [ "archers:ruby_rapid_crossbow", { initial_translation_x = -0.3, initial_translation_y = 0.2, initial_translation_z = 0.16, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 165.0, rotation_positive_y = 180.0, rotation_positive_x = -90.0 } ],
+    [ "archers:heavy_crossbow", { initial_translation_x = -0.3, initial_translation_y = 0.2, initial_translation_z = 0.16, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 165.0, rotation_positive_y = 180.0, rotation_positive_x = -90.0 } ],
+    [ "minecraft:crossbow", { initial_translation_x = -0.3, initial_translation_y = 0.2, initial_translation_z = 0.16, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 165.0, rotation_positive_y = 180.0, rotation_positive_x = -90.0 } ],
+    [ "archers:composite_longbow", { initial_translation_x = 0.1, initial_translation_y = 0.3, initial_translation_z = 0.24, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 45.0, rotation_positive_y = -100.0, rotation_positive_x = -100.0 } ],
+    [ "arsenal:unique_heavy_crossbow_1", { initial_translation_x = -0.3, initial_translation_y = 0.2, initial_translation_z = 0.16, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 165.0, rotation_positive_y = 180.0, rotation_positive_x = -90.0 } ],
+    [ "minecrawl:spell_casting_crossbow_12", { initial_translation_x = -0.3, initial_translation_y = 0.2, initial_translation_z = 0.16, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 165.0, rotation_positive_y = 180.0, rotation_positive_x = -90.0 } ],
+    [ "arsenal:unique_heavy_crossbow_2", { initial_translation_x = -0.3, initial_translation_y = 0.2, initial_translation_z = 0.16, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 165.0, rotation_positive_y = 180.0, rotation_positive_x = -90.0 } ],
+    [ "minecrawl:spell_casting_crossbow_11", { initial_translation_x = -0.3, initial_translation_y = 0.2, initial_translation_z = 0.16, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 165.0, rotation_positive_y = 180.0, rotation_positive_x = -90.0 } ],
+    [ "minecrawl:spell_casting_crossbow_10", { initial_translation_x = -0.3, initial_translation_y = 0.2, initial_translation_z = 0.16, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 165.0, rotation_positive_y = 180.0, rotation_positive_x = -90.0 } ],
+    [ "arsenal:unique_longbow_1", { initial_translation_x = 0.1, initial_translation_y = 0.3, initial_translation_z = 0.24, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 45.0, rotation_positive_y = -100.0, rotation_positive_x = -100.0 } ],
+    [ "arsenal:unique_longbow_2", { initial_translation_x = 0.1, initial_translation_y = 0.3, initial_translation_z = 0.24, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 45.0, rotation_positive_y = -100.0, rotation_positive_x = -100.0 } ],
+    [ "archers:netherite_rapid_crossbow", { initial_translation_x = -0.3, initial_translation_y = 0.2, initial_translation_z = 0.16, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 165.0, rotation_positive_y = 180.0, rotation_positive_x = -90.0 } ],
+    [ "archers:netherite_longbow", { initial_translation_x = 0.1, initial_translation_y = 0.3, initial_translation_z = 0.24, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 45.0, rotation_positive_y = -100.0, rotation_positive_x = -100.0 } ],
+    [ "archers:aether_rapid_crossbow", { initial_translation_x = -0.3, initial_translation_y = 0.2, initial_translation_z = 0.16, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 165.0, rotation_positive_y = 180.0, rotation_positive_x = -90.0 } ],
+    [ "archers:netherite_heavy_crossbow", { initial_translation_x = -0.3, initial_translation_y = 0.2, initial_translation_z = 0.16, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 165.0, rotation_positive_y = 180.0, rotation_positive_x = -90.0 } ],
+    [ "archers:ruby_heavy_crossbow", { initial_translation_x = -0.3, initial_translation_y = 0.2, initial_translation_z = 0.16, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 165.0, rotation_positive_y = 180.0, rotation_positive_x = -90.0 } ],
+    [ "bwt:composite_bow", { initial_translation_x = 0.1, initial_translation_y = 0.3, initial_translation_z = 0.24, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 45.0, rotation_positive_y = -100.0, rotation_positive_x = -100.0 } ],
+    [ "arsenal:unique_heavy_crossbow_sw", { initial_translation_x = -0.3, initial_translation_y = 0.2, initial_translation_z = 0.16, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 165.0, rotation_positive_y = 180.0, rotation_positive_x = -90.0 } ],
+    [ "arsenal:unique_longbow_sw", { initial_translation_x = 0.1, initial_translation_y = 0.3, initial_translation_z = 0.24, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 45.0, rotation_positive_y = -100.0, rotation_positive_x = -100.0 } ],
+    [ "archers:aether_heavy_crossbow", { initial_translation_x = -0.3, initial_translation_y = 0.2, initial_translation_z = 0.16, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 165.0, rotation_positive_y = 180.0, rotation_positive_x = -90.0 } ],
+    [ "archers:mechanic_shortbow", { initial_translation_x = 0.1, initial_translation_y = 0.3, initial_translation_z = 0.24, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 45.0, rotation_positive_y = -100.0, rotation_positive_x = -100.0 } ]
+]
+sheathed_offhand_item_positions = [
+    [ "paladins:netherite_kite_shield", { initial_translation_x = 0.2, initial_translation_y = 0.4, initial_translation_z = 0.075, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 0.0, rotation_positive_y = -90.0, rotation_positive_x = 15.0 } ],
+    [ "minecraft:shield", { initial_translation_x = 0.2, initial_translation_y = 0.4, initial_translation_z = 0.075, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 0.0, rotation_positive_y = -90.0, rotation_positive_x = 15.0 } ],
+    [ "paladins:aether_kite_shield", { initial_translation_x = 0.2, initial_translation_y = 0.4, initial_translation_z = 0.075, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 0.0, rotation_positive_y = -90.0, rotation_positive_x = 15.0 } ],
+    [ "arsenal:unique_shield_sw", { initial_translation_x = 0.2, initial_translation_y = 0.4, initial_translation_z = 0.075, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 0.0, rotation_positive_y = -90.0, rotation_positive_x = 15.0 } ],
+    [ "paladins:aeternium_kite_shield", { initial_translation_x = 0.2, initial_translation_y = 0.4, initial_translation_z = 0.075, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 0.0, rotation_positive_y = -90.0, rotation_positive_x = 15.0 } ],
+    [ "paladins:diamond_kite_shield", { initial_translation_x = 0.2, initial_translation_y = 0.4, initial_translation_z = 0.075, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 0.0, rotation_positive_y = -90.0, rotation_positive_x = 15.0 } ],
+    [ "paladins:golden_kite_shield", { initial_translation_x = 0.2, initial_translation_y = 0.4, initial_translation_z = 0.075, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 0.0, rotation_positive_y = -90.0, rotation_positive_x = 15.0 } ],
+    [ "paladins:ruby_kite_shield", { initial_translation_x = 0.2, initial_translation_y = 0.4, initial_translation_z = 0.075, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 0.0, rotation_positive_y = -90.0, rotation_positive_x = 15.0 } ],
+    [ "paladins:iron_kite_shield", { initial_translation_x = 0.2, initial_translation_y = 0.4, initial_translation_z = 0.075, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 0.0, rotation_positive_y = -90.0, rotation_positive_x = 15.0 } ],
+    [ "arsenal:unique_shield_1", { initial_translation_x = 0.2, initial_translation_y = 0.4, initial_translation_z = 0.075, equipped_chest_offset_x = 0.0, equipped_chest_offset_y = 0.0, equipped_chest_offset_z = 0.06, rotation_positive_z = 0.0, rotation_positive_y = -90.0, rotation_positive_x = 15.0 } ]
+]
+
+[hotBarOverhaul]
+enable_hotbar_overhaul = true
+always_show_selected_hotbar_slot = false
+hotbar_scrolling_tries_to_sheathe_hand_items = false
+show_empty_hand_slots = true
+hand_slots_offset_x = -140
+hand_slots_offset_y = -23
+offhand_item_is_right = true
+show_empty_alternative_hand_slots = true
+alternative_hand_slots_offset_x = 91
+alternative_hand_slots_offset_y = -23
+alternative_offhand_item_is_right = true
+
+[rpgInventoryScreenSection]
+show_attribute_screen_when_opening_inventory_screen = false
+can_hide_status_effect_screen = false
+show_effect_screen_when_opening_inventory_screen = true
+spell_slots_label_x_offset = 98
+spell_slots_label_y_offset = 79
+enable_open_backpack_button = false
+open_backpack_button_offset_x = 99
+open_backpack_button_offset_y = 35
+enable_open_hand_crafting_button = false
+open_hand_crafting_button_offset_x = 99
+open_hand_crafting_button_offset_y = 57
+
+[first_overlay_colour_for_slots_with_unusable_items]
+# Red component, 0 to 255
+r = 200
+# Green component, 0 to 255
+g = 5
+# Blue component, 0 to 255
+b = 5
+# Alpha component, 0 to 255
+a = 50
+
+[second_overlay_colour_for_slots_with_unusable_items]
+# Red component, 0 to 255
+r = 200
+# Green component, 0 to 255
+g = 5
+# Blue component, 0 to 255
+b = 5
+# Alpha component, 0 to 255
+a = 50
+
+[first_overlay_colour_for_slots_with_loadout_items]
+# Red component, 0 to 255
+r = 200
+# Green component, 0 to 255
+g = 5
+# Blue component, 0 to 255
+b = 5
+# Alpha component, 0 to 255
+a = 50
+
+[second_overlay_colour_for_slots_with_loadout_items]
+# Red component, 0 to 255
+r = 200
+# Green component, 0 to 255
+g = 5
+# Blue component, 0 to 255
+b = 5
+# Alpha component, 0 to 255
+a = 50
+
+[first_overlay_colour_for_slots_with_not_owned_items]
+# Red component, 0 to 255
+r = 200
+# Green component, 0 to 255
+g = 5
+# Blue component, 0 to 255
+b = 5
+# Alpha component, 0 to 255
+a = 50
+
+[second_overlay_colour_for_slots_with_not_owned_items]
+# Red component, 0 to 255
+r = 200
+# Green component, 0 to 255
+g = 5
+# Blue component, 0 to 255
+b = 5
+# Alpha component, 0 to 255
+a = 50
+
+[first_overlay_colour_for_slots_with_advancement_not_unlocked_items]
+# Red component, 0 to 255
+r = 200
+# Green component, 0 to 255
+g = 5
+# Blue component, 0 to 255
+b = 5
+# Alpha component, 0 to 255
+a = 50
+
+[second_overlay_colour_for_slots_with_advancement_not_unlocked_items]
+# Red component, 0 to 255
+r = 200
+# Green component, 0 to 255
+g = 5
+# Blue component, 0 to 255
+b = 5
+# Alpha component, 0 to 255
+a = 50
+
+[first_overlay_colour_for_slots_with_advancement_locked_items]
+# Red component, 0 to 255
+r = 200
+# Green component, 0 to 255
+g = 5
+# Blue component, 0 to 255
+b = 5
+# Alpha component, 0 to 255
+a = 50
+
+[second_overlay_colour_for_slots_with_advancement_locked_items]
+# Red component, 0 to 255
+r = 200
+# Green component, 0 to 255
+g = 5
+# Blue component, 0 to 255
+b = 5
+# Alpha component, 0 to 255
+a = 50
+
+[itemTooltipSection]
+show_load_out_item_tooltip = true
+show_load_out_item_description_tooltip = true
+item_tooltip_load_out_item_index = -1
+show_item_tooltip_bound_to_player_name = true
+item_tooltip_bound_to_player_name_formatting_string = ""
+item_tooltip_bound_to_player_index = -1
+show_item_tooltip_crafted_by_player_name = true
+item_tooltip_crafted_by_player_name_formatting_string = ""
+item_tooltip_crafted_by_player_index = -1
+show_item_tooltip_advancement_locked = true
+item_tooltip_advancement_locked_index = -1
+show_item_tooltip_two_handed_items = true
+item_tooltip_two_handed_items_index = -1
+show_item_tooltip_equipment_slots = false
+item_tooltip_equipment_slots_index = -1

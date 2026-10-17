@@ -1,0 +1,145 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "selan4ik",
+      "uniqueId": "429e18ae-33c2-4002-9745-be59c8e7f1ca"
+    },
+    "time": 1787402726578,
+    "type": "Profiler",
+    "data": {
+      "type": "file",
+      "value": "C:\\curseforge\\minecraft\\Instances\\[FABRIC] xXxBatleRoyal.exe II\\config\\spark\\profile-2026-08-22_14.45.26.sparkprofile"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "selan4ik",
+      "uniqueId": "429e18ae-33c2-4002-9745-be59c8e7f1ca"
+    },
+    "time": 1787401870861,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/JUdHUkHptA"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "selan4ik",
+      "uniqueId": "429e18ae-33c2-4002-9745-be59c8e7f1ca"
+    },
+    "time": 1787393922481,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/YtkTj9KBHk"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "selan4ik",
+      "uniqueId": "429e18ae-33c2-4002-9745-be59c8e7f1ca"
+    },
+    "time": 1787335264384,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/Zbr7zlsU7T"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "selan4ik",
+      "uniqueId": "429e18ae-33c2-4002-9745-be59c8e7f1ca"
+    },
+    "time": 1787334705622,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/nTAnhfpMHF"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "selan4ik",
+      "uniqueId": "429e18ae-33c2-4002-9745-be59c8e7f1ca"
+    },
+    "time": 1787334566305,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/1uDHqK14iZ"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "selan4ik",
+      "uniqueId": "429e18ae-33c2-4002-9745-be59c8e7f1ca"
+    },
+    "time": 1787331756434,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/H0xhesZYbJ"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "selan4ik",
+      "uniqueId": "429e18ae-33c2-4002-9745-be59c8e7f1ca"
+    },
+    "time": 1787144594146,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/1Gr0Oyq1bG"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "selan4ik",
+      "uniqueId": "429e18ae-33c2-4002-9745-be59c8e7f1ca"
+    },
+    "time": 1787144152883,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/0M06UQTytc"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "selan4ik",
+      "uniqueId": "429e18ae-33c2-4002-9745-be59c8e7f1ca"
+    },
+    "time": 1787143954454,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/lw9MejLYpp"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "selan4ik",
+      "uniqueId": "429e18ae-33c2-4002-9745-be59c8e7f1ca"
+    },
+    "time": 1787143915366,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/YSAXKBwC09"
+    }
+  }
+]

@@ -1,0 +1,22 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+
+[class_name_text_colour]
+# Red component, 0 to 255
+r = 0
+# Green component, 0 to 255
+g = 0
+# Blue component, 0 to 255
+b = 0
+# Alpha component, 0 to 255
+a = 255
+
+[class_description_text_colour]
+# Red component, 0 to 255
+r = 255
+# Green component, 0 to 255
+g = 255
+# Blue component, 0 to 255
+b = 255
+# Alpha component, 0 to 255
+a = 255
