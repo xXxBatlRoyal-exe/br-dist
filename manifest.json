@@ -1,6 +1,6 @@
 {
     "format":  1,
-    "packVersion":  "2026-10-17.1402",
+    "packVersion":  "2026-10-17.1555",
     "minecraft":  "1.21.1",
     "fabricLoader":  "0.19.5",
     "managedDirs":  [
@@ -125,6 +125,12 @@
                       "path":  "mods/br_loot_nosplit-1.0.0.jar",
                       "sha1":  "dc8ee2a0099034d12e0e982dad94af93040ab1a8",
                       "size":  2556,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/br_shard_cooldown-1.0.0.jar",
+                      "sha1":  "a54cb25d75aa1e1e8e23bf788bcee859b66cd0c0",
+                      "size":  2671,
                       "mode":  "sync"
                   },
                   {
@@ -1468,7 +1474,7 @@
                   },
                   {
                       "path":  "config/iris.properties",
-                      "sha1":  "b3177cb57264526d7faf15c25cb90b4b034ea1f7",
+                      "sha1":  "89ac1f86b513b39daeff82019143a40ea7ce691b",
                       "size":  296,
                       "mode":  "update"
                   },
@@ -1510,7 +1516,7 @@
                   },
                   {
                       "path":  "config/libraryferret_1.properties",
-                      "sha1":  "4d916d916154a1d18f7043d5860c63158b038bb7",
+                      "sha1":  "022ee491a5c34a08437160be5b74b816372f8eb6",
                       "size":  194,
                       "mode":  "update"
                   },
@@ -2512,7 +2518,7 @@
                   },
                   {
                       "path":  "config/fabric/indigo-renderer.properties",
-                      "sha1":  "487761296dd6e225107b43f059bfaac96250129e",
+                      "sha1":  "b7dfa821894dbabd560afa9f961d595c48c6c951",
                       "size":  291,
                       "mode":  "update"
                   },
@@ -11908,7 +11914,7 @@
                   },
                   {
                       "path":  "options.txt",
-                      "sha1":  "ec0b0d9999e5adc8c516af7059fbfcf16be0e14e",
+                      "sha1":  "51ec45e3768a3cf68671a2bbc0f6c9e6fd82009d",
                       "size":  10626,
                       "mode":  "once"
                   }
