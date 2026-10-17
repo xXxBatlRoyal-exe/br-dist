@@ -1,6 +1,6 @@
 {
     "format":  1,
-    "packVersion":  "2026-10-17.1034",
+    "packVersion":  "2026-10-17.1402",
     "minecraft":  "1.21.1",
     "fabricLoader":  "0.19.5",
     "managedDirs":  [
@@ -707,12 +707,6 @@
                       "path":  "mods/paladins-fabric-3.1.1+1.21.1.jar",
                       "sha1":  "9732bf257752d7200a00f91444e1779597a818fb",
                       "size":  3138805,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/PanoramaScreenshot-1.0.0-1.21.1.jar",
-                      "sha1":  "7c13adefc7eb34346ca58544e29d6ec5da769478",
-                      "size":  19136,
                       "mode":  "sync"
                   },
                   {
@@ -1474,7 +1468,7 @@
                   },
                   {
                       "path":  "config/iris.properties",
-                      "sha1":  "8039ba4db2b5345e92046fc14f70ac811d8ff660",
+                      "sha1":  "b3177cb57264526d7faf15c25cb90b4b034ea1f7",
                       "size":  296,
                       "mode":  "update"
                   },
@@ -1516,7 +1510,7 @@
                   },
                   {
                       "path":  "config/libraryferret_1.properties",
-                      "sha1":  "719f9c00c2f5c64d1f5eccd1d1a894c29585f2ed",
+                      "sha1":  "4d916d916154a1d18f7043d5860c63158b038bb7",
                       "size":  194,
                       "mode":  "update"
                   },
@@ -2518,7 +2512,7 @@
                   },
                   {
                       "path":  "config/fabric/indigo-renderer.properties",
-                      "sha1":  "d481eaeaa258f46f5fea2e8ce75f6ca78d1b4c81",
+                      "sha1":  "487761296dd6e225107b43f059bfaac96250129e",
                       "size":  291,
                       "mode":  "update"
                   },
@@ -11914,18 +11908,17 @@
                   },
                   {
                       "path":  "options.txt",
-                      "sha1":  "dbac22a0247da4d28882ffed18ee40525f9b5a6f",
-                      "size":  10672,
+                      "sha1":  "ec0b0d9999e5adc8c516af7059fbfcf16be0e14e",
+                      "size":  10626,
                       "mode":  "once"
                   }
               ],
     "archives":  [
                      {
                          "path":  "resourcepacks/xXxBatlRoyal.exe textures",
-                         "sha1":  "8dee4e05bbe9223d184a79bacc581168623fd2bf",
-                         "size":  96673092,
-                         "content":  "6f2097c1b8358a558b5fd9943c604bc734e74d8a",
-                         "parts":  2
+                         "sha1":  "efac4b9e11f25be81f75f5dbb090021e6559fa2e",
+                         "size":  92122571,
+                         "content":  "65ad26525daf52b1a49cbf02883a4f6a7588d292"
                      }
                  ]
 }
