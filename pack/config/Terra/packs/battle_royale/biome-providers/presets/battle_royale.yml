@@ -74,9 +74,13 @@ biomes:
       sampler:
         type: DISTANCE
         distance-function: Euclidean
+        # Recentred 2026-10-17: with point 0,0 the island came out centred at world (-8,-6)
+        # (same grid quirk as "4*weight-9"; here 1 unit ~ 4 blocks). x 2 / z 1.5 put it at
+        # ~(+1,-1), edges measured E78/W74/S76/N80 (beach), 104-106 (ocean). The REPLACE
+        # expression below uses the same offset so the 4 wedges stay centred on the island.
         point:
-          x: 0
-          z: 0
+          x: 2
+          z: 1.5
         normalize: true
         radius: 10039 # = 19 + 7 + 13 + 10000, see biomes list below
       biomes:
@@ -95,7 +99,7 @@ biomes:
           # an exact quarter of the range (verified against
           # MathUtil.normalizeIndex, which is what this build's REPLACE
           # stage uses to turn this value into a list index).
-          expression: (atan2(z, x) - pi/4 - 2*pi*floor((atan2(z, x) - pi/4 + pi) / (2*pi))) / pi
+          expression: (atan2(z - 1.5, x - 2) - pi/4 - 2*pi*floor((atan2(z - 1.5, x - 2) - pi/4 + pi) / (2*pi))) / pi
         to:
           - SNOWY_PLAINS: 1  # North
           - JUNGLE: 1        # East

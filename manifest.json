@@ -1,10 +1,11 @@
 {
     "format":  1,
-    "packVersion":  "2026-10-17.1555",
+    "packVersion":  "2026-10-18.1838",
     "minecraft":  "1.21.1",
     "fabricLoader":  "0.19.5",
     "managedDirs":  [
-                        "mods"
+                        "mods",
+                        "resourcepacks/BR Core Textures"
                     ],
     "files":  [
                   {
@@ -122,6 +123,24 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/br_backtools_staffs-1.1.0.jar",
+                      "sha1":  "0b3ee1392e4b0a650467515d6f105c66c5cde023",
+                      "size":  7245,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/br_dig_markers-1.0.0.jar",
+                      "sha1":  "29e3e88571deed98390fb944c1f94cad182863e8",
+                      "size":  8627,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/br_layout-1.0.0.jar",
+                      "sha1":  "dbffbbc2de289c8fbab1ba8967d96bc2c0fc8685",
+                      "size":  14908,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/br_loot_nosplit-1.0.0.jar",
                       "sha1":  "dc8ee2a0099034d12e0e982dad94af93040ab1a8",
                       "size":  2556,
@@ -134,9 +153,9 @@
                       "mode":  "sync"
                   },
                   {
-                      "path":  "mods/br_spellbook_table-1.0.0.jar",
-                      "sha1":  "56be2e00ece6f2cd2a324b3b4b701e0c28ec3530",
-                      "size":  5392,
+                      "path":  "mods/br_spellbook_table-1.4.0.jar",
+                      "sha1":  "ee606a1b91eeef48c329a10fff09d95b6157df88",
+                      "size":  8265,
                       "mode":  "sync"
                   },
                   {
@@ -167,12 +186,6 @@
                       "path":  "mods/chat_heads-0.15.7-fabric-1.21.jar",
                       "sha1":  "5f37d428e0cc5ff08ed73a21ee11af0dde4105c2",
                       "size":  86944,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/Chunky-Fabric-1.4.23.jar",
-                      "sha1":  "6c8098fc0f124c7b6492de60db0108747f7f9821",
-                      "size":  342979,
                       "mode":  "sync"
                   },
                   {
@@ -233,12 +246,6 @@
                       "path":  "mods/DistantHorizons-3.3.3-1.21.1-fabric-neoforge.jar",
                       "sha1":  "4357b4d19fab818780c94f0e43dad1cc931634b2",
                       "size":  28289212,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/distraction_free_recipes-fabric-1.2.2-1.21.1.jar",
-                      "sha1":  "9f27028ffa04c01a3ed9703b431677aabaf54398",
-                      "size":  681921,
                       "mode":  "sync"
                   },
                   {
@@ -410,6 +417,12 @@
                       "mode":  "sync"
                   },
                   {
+                      "path":  "mods/forsaken_corpses-1.2.0+br.1.jar",
+                      "sha1":  "7459cad0a196b4076b53f9bc77ee9248659fcea8",
+                      "size":  185077,
+                      "mode":  "sync"
+                  },
+                  {
                       "path":  "mods/fzzy_config-0.7.6+1.21.jar",
                       "sha1":  "cff21f254e911a323fe49015d12e548d3e3b8d7c",
                       "size":  2365335,
@@ -491,6 +504,12 @@
                       "path":  "mods/jei-1.21.1-fabric-19.51.0.418.jar",
                       "sha1":  "8f3e091b19cf5cba53bdeecd2ca3874c9de03aee",
                       "size":  1836225,
+                      "mode":  "sync"
+                  },
+                  {
+                      "path":  "mods/jewelry-fabric-2.4.0+1.21.1.jar",
+                      "sha1":  "ba0bdfd52e89d7c8e782eecf76421acfb581168a",
+                      "size":  511636,
                       "mode":  "sync"
                   },
                   {
@@ -1064,21 +1083,9 @@
                       "mode":  "sync"
                   },
                   {
-                      "path":  "mods/YungsBetterMineshafts-1.21.1-Fabric-5.1.1.jar",
-                      "sha1":  "109ff2fb19cd42d1731ea4ed17efbd9b5c1187dc",
-                      "size":  615927,
-                      "mode":  "sync"
-                  },
-                  {
                       "path":  "mods/YungsBetterNetherFortresses-1.21.1-Fabric-3.1.5.jar",
                       "sha1":  "99096e90aba45f3fb4eec5b9daa8acdb6497fa72",
                       "size":  736418,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "mods/YungsBetterWitchHuts-1.21.1-Fabric-4.1.1.jar",
-                      "sha1":  "52389a853f0b0d7d134147a1be842675e5c67e40",
-                      "size":  298721,
                       "mode":  "sync"
                   },
                   {
@@ -1474,7 +1481,7 @@
                   },
                   {
                       "path":  "config/iris.properties",
-                      "sha1":  "89ac1f86b513b39daeff82019143a40ea7ce691b",
+                      "sha1":  "f454d965edb60f9aa1a3565db71773b14fd4a6ea",
                       "size":  296,
                       "mode":  "update"
                   },
@@ -1516,7 +1523,7 @@
                   },
                   {
                       "path":  "config/libraryferret_1.properties",
-                      "sha1":  "022ee491a5c34a08437160be5b74b816372f8eb6",
+                      "sha1":  "a321a52e76d456d11bc0647642340e902557d46a",
                       "size":  194,
                       "mode":  "update"
                   },
@@ -1708,8 +1715,8 @@
                   },
                   {
                       "path":  "config/sophisticatedbackpacks-server.toml",
-                      "sha1":  "a0f206ba6be106c717546edbc5c14d360bd2d250",
-                      "size":  19693,
+                      "sha1":  "617152f4a17683c647fb203caeaf33fd155a13c5",
+                      "size":  19155,
                       "mode":  "update"
                   },
                   {
@@ -2301,6 +2308,18 @@
                       "mode":  "update"
                   },
                   {
+                      "path":  "config/cristellib/lying_skeletons/structure_placement_config.json5",
+                      "sha1":  "050b5d6ed8b12465792642341175268fd13b735e",
+                      "size":  214,
+                      "mode":  "update"
+                  },
+                  {
+                      "path":  "config/cristellib/lying_skeletons/structure_toggle_config.json5",
+                      "sha1":  "93280a196437817601126ec9cb48a109dd3a6099",
+                      "size":  145,
+                      "mode":  "update"
+                  },
+                  {
                       "path":  "config/cristellib/mostructures/structure_toggle_config.json5",
                       "sha1":  "bea9232bb795cc49669f2922829f4f1522919216",
                       "size":  981,
@@ -2518,7 +2537,7 @@
                   },
                   {
                       "path":  "config/fabric/indigo-renderer.properties",
-                      "sha1":  "b7dfa821894dbabd560afa9f961d595c48c6c951",
+                      "sha1":  "7cd18a93147d33bb1ba4ffd7603c357b9e5fe76e",
                       "size":  291,
                       "mode":  "update"
                   },
@@ -2572,8 +2591,8 @@
                   },
                   {
                       "path":  "config/fancymenu/customization/br_title_screen.txt",
-                      "sha1":  "bb7e413ff71bb3e1b54d0d94af93fdeb7d3c7790",
-                      "size":  3070,
+                      "sha1":  "020de1946cc24c52a25e24339d410c841e13743b",
+                      "size":  3084,
                       "mode":  "update"
                   },
                   {
@@ -2668,8 +2687,8 @@
                   },
                   {
                       "path":  "config/jei/ingredient-list-mod-sort-order.ini",
-                      "sha1":  "a88c5e1a35587bb44225abc3afaefcd77ef5db1c",
-                      "size":  616,
+                      "sha1":  "77a56f2a8597ee5543ade70d1336be37c2e456cc",
+                      "size":  638,
                       "mode":  "update"
                   },
                   {
@@ -2736,6 +2755,12 @@
                       "path":  "config/jei/world/local/___________6/lookupHistory.json",
                       "sha1":  "3c111a8a93520953189a6b7ed7497a521a0621a8",
                       "size":  1029,
+                      "mode":  "update"
+                  },
+                  {
+                      "path":  "config/jei/world/server/Minecraft Server (localhost)/lookupHistory.json",
+                      "sha1":  "bcb91a449afa4172c5418b51cfa316078b4657a3",
+                      "size":  1281,
                       "mode":  "update"
                   },
                   {
@@ -2890,14 +2915,14 @@
                   },
                   {
                       "path":  "config/loot_n_explore/loot_equipment_v1.json",
-                      "sha1":  "58b0fd366544135983282491c012c6111f3e8735",
-                      "size":  22391,
+                      "sha1":  "3df5ce9b1437175e7bc4d4b5691955a433f6bc9f",
+                      "size":  46,
                       "mode":  "update"
                   },
                   {
                       "path":  "config/loot_n_explore/loot_scrolls.json",
-                      "sha1":  "bdb7014f6ea3c0b4bf8cd8236fd0628ceb818492",
-                      "size":  2305,
+                      "sha1":  "3df5ce9b1437175e7bc4d4b5691955a433f6bc9f",
+                      "size":  46,
                       "mode":  "update"
                   },
                   {
@@ -2908,8 +2933,8 @@
                   },
                   {
                       "path":  "config/loot_n_explore/tweaks_v1.json",
-                      "sha1":  "6f422785b28e1bb6ba80812cc0ab7a43bdfaae77",
-                      "size":  343,
+                      "sha1":  "82955bcc140ee9b95c3652042cfd1040d4ce8a1d",
+                      "size":  337,
                       "mode":  "update"
                   },
                   {
@@ -2926,8 +2951,8 @@
                   },
                   {
                       "path":  "config/more_rpg_classes/loot.json",
-                      "sha1":  "c3f21a5b7f7fc854ed33c63d83273b68a11d689a",
-                      "size":  1103,
+                      "sha1":  "1ac884b7c26adfd2652487f90633cf1e4c479198",
+                      "size":  19,
                       "mode":  "update"
                   },
                   {
@@ -3082,8 +3107,8 @@
                   },
                   {
                       "path":  "config/rpg_series/loot_equipment_v2.json",
-                      "sha1":  "f1cb97a622f404e14e17f22ba66d8518b95b8d11",
-                      "size":  186170,
+                      "sha1":  "3df5ce9b1437175e7bc4d4b5691955a433f6bc9f",
+                      "size":  46,
                       "mode":  "update"
                   },
                   {
@@ -3094,20 +3119,20 @@
                   },
                   {
                       "path":  "config/rpg_series/loot_scrolls_v1.json",
-                      "sha1":  "44fbc29d222f3498e66dedd0b0c909fc72274632",
-                      "size":  30266,
+                      "sha1":  "73fe2a3778558cbd4ccc01aba602762e32b1f1e9",
+                      "size":  47,
                       "mode":  "update"
                   },
                   {
                       "path":  "config/rpg_series/loot_scrolls_v2.json",
-                      "sha1":  "112698415d848b00dd9ae75f0aebd402157b390f",
-                      "size":  31200,
+                      "sha1":  "3df5ce9b1437175e7bc4d4b5691955a433f6bc9f",
+                      "size":  46,
                       "mode":  "update"
                   },
                   {
                       "path":  "config/rpg_series/tag_cache.json",
-                      "sha1":  "7d0a7f8f166f5c311a99454d2ae2f1b01e18de69",
-                      "size":  18781,
+                      "sha1":  "9fcd14b1df41dd92176bbab695f82e18a7ecb42e",
+                      "size":  20590,
                       "mode":  "update"
                   },
                   {
@@ -3118,8 +3143,8 @@
                   },
                   {
                       "path":  "config/spark/activity.json",
-                      "sha1":  "9ff13ff1577618c88a0016f9af9c69b9b83b463d",
-                      "size":  3181,
+                      "sha1":  "f355a04ee3b663ee6bec2b3c664b4b826dc5cebd",
+                      "size":  2054,
                       "mode":  "update"
                   },
                   {
@@ -3520,8 +3545,8 @@
                   },
                   {
                       "path":  "config/Terra/packs/battle_royale/biome-providers/presets/battle_royale.yml",
-                      "sha1":  "f6d6bc99ec72240851b108ffd89a63e6d9059d51",
-                      "size":  4416,
+                      "sha1":  "1445817830e263cc6eeec7edd700c7d0c9083431",
+                      "size":  4802,
                       "mode":  "update"
                   },
                   {
@@ -11661,252 +11686,6 @@
                       "mode":  "update"
                   },
                   {
-                      "path":  "resourcepacks/BR Core Textures/pack.mcmeta",
-                      "sha1":  "90ab161d8e491f163c1380a03f528a595c59253c",
-                      "size":  113,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/models/item/blaze_powder.json",
-                      "sha1":  "b5408fd39a69d1d82c9a3f73d932634a3dd70c97",
-                      "size":  200,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/models/item/dungeon_armor_token_boots_t1.json",
-                      "sha1":  "3a720818d3657c717acf952de109431043f7c323",
-                      "size":  109,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/models/item/dungeon_armor_token_boots_t2.json",
-                      "sha1":  "1c6fa3331482ea1e3190e1289366d1ec0435beda",
-                      "size":  109,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/models/item/dungeon_armor_token_boots_t3.json",
-                      "sha1":  "3490b527aaf6df4aa5be33d884e2b6ef6557ac37",
-                      "size":  109,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/models/item/dungeon_armor_token_chest_t1.json",
-                      "sha1":  "1af39ef262bf3241f2f3a3e59370da7ff9e50d8f",
-                      "size":  109,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/models/item/dungeon_armor_token_chest_t2.json",
-                      "sha1":  "440b9374e51bce7aa3c090dcadf7a766421ca521",
-                      "size":  109,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/models/item/dungeon_armor_token_chest_t3.json",
-                      "sha1":  "f258cb88eefa5a17226a545b631eb8ad0431f0f7",
-                      "size":  109,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/models/item/dungeon_armor_token_helmet_t1.json",
-                      "sha1":  "51cdb1503350008b074e1c814f8e1be1645e15bd",
-                      "size":  110,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/models/item/dungeon_armor_token_helmet_t2.json",
-                      "sha1":  "1dd3644d2c4e27c2213f959b2efbc628c94d522a",
-                      "size":  110,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/models/item/dungeon_armor_token_helmet_t3.json",
-                      "sha1":  "e7b8a67060bf9ceb9d7608bf9deddf87643be8e0",
-                      "size":  110,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/models/item/dungeon_armor_token_legs_t1.json",
-                      "sha1":  "8e3bd44fed70fd500c36587da1cdb97c368a528a",
-                      "size":  108,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/models/item/dungeon_armor_token_legs_t2.json",
-                      "sha1":  "868115113a7afc939a253b3c707ff6c810093527",
-                      "size":  108,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/models/item/dungeon_armor_token_legs_t3.json",
-                      "sha1":  "4d487a7700cbd5e5a1cb1d45250049187d517804",
-                      "size":  108,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/models/item/dungeon_armor_token_staff_t1.json",
-                      "sha1":  "3bc4a56a7c8d820483f4fce1015001ca34e3233b",
-                      "size":  109,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/models/item/dungeon_armor_token_staff_t2.json",
-                      "sha1":  "aee21f571da63a73bbb67c8b72ece25316e39bda",
-                      "size":  109,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/models/item/ember.json",
-                      "sha1":  "657c6f540ca5b2276e9f7f3131ff50bc0b4bbf28",
-                      "size":  86,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/models/item/legendary_weapon_token.json",
-                      "sha1":  "7e40d907de9216f1499c528aaf6ec421a755d5c9",
-                      "size":  103,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/models/item/paper.json",
-                      "sha1":  "28c988d98113968889526ac76d4b9e0572bfc047",
-                      "size":  1794,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/textures/gui/sprites/hud/food_empty.png",
-                      "sha1":  "cc796f2cad4d8b02d5206a8bff95a8344708eb58",
-                      "size":  121,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/textures/gui/sprites/hud/food_empty_hunger.png",
-                      "sha1":  "cc796f2cad4d8b02d5206a8bff95a8344708eb58",
-                      "size":  121,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/textures/gui/sprites/hud/food_full.png",
-                      "sha1":  "cc796f2cad4d8b02d5206a8bff95a8344708eb58",
-                      "size":  121,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/textures/gui/sprites/hud/food_full_hunger.png",
-                      "sha1":  "cc796f2cad4d8b02d5206a8bff95a8344708eb58",
-                      "size":  121,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/textures/gui/sprites/hud/food_half.png",
-                      "sha1":  "cc796f2cad4d8b02d5206a8bff95a8344708eb58",
-                      "size":  121,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/textures/gui/sprites/hud/food_half_hunger.png",
-                      "sha1":  "cc796f2cad4d8b02d5206a8bff95a8344708eb58",
-                      "size":  121,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/textures/item/dungeon_armor_token_boots_t1.png",
-                      "sha1":  "3878dd731ef3991a77d9db5e5f6aa1718fced9fd",
-                      "size":  658,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/textures/item/dungeon_armor_token_boots_t2.png",
-                      "sha1":  "8682df06118c2190c45117f6901312371f71d467",
-                      "size":  629,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/textures/item/dungeon_armor_token_boots_t3.png",
-                      "sha1":  "4fbace019c83d3c14cbd48c2d0259913a8e40333",
-                      "size":  707,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/textures/item/dungeon_armor_token_chest_t1.png",
-                      "sha1":  "14c998b3021b7554300dff7d7475fef4ff705b6f",
-                      "size":  670,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/textures/item/dungeon_armor_token_chest_t2.png",
-                      "sha1":  "c7ae97f2c3ad867d1ce2186af21287f3032df77a",
-                      "size":  646,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/textures/item/dungeon_armor_token_chest_t3.png",
-                      "sha1":  "19c5123a4c88ed084f239d05bb658d2fec86299b",
-                      "size":  707,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/textures/item/dungeon_armor_token_helmet_t1.png",
-                      "sha1":  "367a1d94d8ce1ed046f66224fbc38c10d890bf6f",
-                      "size":  669,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/textures/item/dungeon_armor_token_helmet_t2.png",
-                      "sha1":  "87de4a923c153b63364e73c5d5ac456c56b66f8d",
-                      "size":  657,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/textures/item/dungeon_armor_token_helmet_t3.png",
-                      "sha1":  "c9a3756eca7f5648bec4a5a58728d09cf8741141",
-                      "size":  706,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/textures/item/dungeon_armor_token_legs_t1.png",
-                      "sha1":  "28092781d65f44e8e99004c6ec41b7203d836cd6",
-                      "size":  662,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/textures/item/dungeon_armor_token_legs_t2.png",
-                      "sha1":  "c589a0fad2f91688c2d01685263bac63b5875b63",
-                      "size":  640,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/textures/item/dungeon_armor_token_legs_t3.png",
-                      "sha1":  "4b0f79545c28513693c8de0ceb2a9b39eb27ad0b",
-                      "size":  708,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/textures/item/dungeon_armor_token_staff_t1.png",
-                      "sha1":  "f465fadca06a35addad25636c7af8e5302f37a55",
-                      "size":  638,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/textures/item/dungeon_armor_token_staff_t2.png",
-                      "sha1":  "34e3f2fbcd7ad8ba848168760f2be13ba6287798",
-                      "size":  703,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/textures/item/ember.png",
-                      "sha1":  "9f7ec584bfb2aebc5386aed9fe1383d36cb2c4ba",
-                      "size":  378,
-                      "mode":  "sync"
-                  },
-                  {
-                      "path":  "resourcepacks/BR Core Textures/assets/minecraft/textures/item/legendary_weapon_token.png",
-                      "sha1":  "e03d1ac84a03bb67d7eb8cc664e5197a3d43a98e",
-                      "size":  6685,
-                      "mode":  "sync"
-                  },
-                  {
                       "path":  "shaderpacks/BSL_v10.1.1.zip",
                       "sha1":  "6975d0161f22a5f6abf01a51fd9eedbd50c96cc3",
                       "size":  1125052,
@@ -11914,17 +11693,17 @@
                   },
                   {
                       "path":  "options.txt",
-                      "sha1":  "51ec45e3768a3cf68671a2bbc0f6c9e6fd82009d",
-                      "size":  10626,
+                      "sha1":  "4eac5ad889d6069dbaa48ca7683db433f01d27aa",
+                      "size":  10343,
                       "mode":  "once"
                   }
               ],
     "archives":  [
                      {
                          "path":  "resourcepacks/xXxBatlRoyal.exe textures",
-                         "sha1":  "efac4b9e11f25be81f75f5dbb090021e6559fa2e",
-                         "size":  92122571,
-                         "content":  "65ad26525daf52b1a49cbf02883a4f6a7588d292"
+                         "sha1":  "10126937ea9bd771f5fe3559a167287f529c0b72",
+                         "size":  92172004,
+                         "content":  "994ecfef813704d650a8f017a232a2b5233b287c"
                      }
                  ]
 }

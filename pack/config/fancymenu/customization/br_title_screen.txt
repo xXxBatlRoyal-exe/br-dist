@@ -115,7 +115,7 @@ element {
   label = §l§6ИГРАТЬ
   hoverlabel = §l§e▶ ИГРАТЬ ◀
   description = Зайти на сервер xXxBatlRoyal.exe
-  [executable_action_instance:br_play_join][action_type:joinserver] = localhost
+  [executable_action_instance:br_play_join][action_type:joinserver] = 6.tcp.eu.ngrok.io:17666
 }
 
 element {

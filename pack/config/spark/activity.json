@@ -89,57 +89,5 @@
       "type": "url",
       "value": "https://spark.lucko.me/H0xhesZYbJ"
     }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "selan4ik",
-      "uniqueId": "429e18ae-33c2-4002-9745-be59c8e7f1ca"
-    },
-    "time": 1787144594146,
-    "type": "Profiler",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/1Gr0Oyq1bG"
-    }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "selan4ik",
-      "uniqueId": "429e18ae-33c2-4002-9745-be59c8e7f1ca"
-    },
-    "time": 1787144152883,
-    "type": "Profiler",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/0M06UQTytc"
-    }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "selan4ik",
-      "uniqueId": "429e18ae-33c2-4002-9745-be59c8e7f1ca"
-    },
-    "time": 1787143954454,
-    "type": "Profiler (live)",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/lw9MejLYpp"
-    }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "selan4ik",
-      "uniqueId": "429e18ae-33c2-4002-9745-be59c8e7f1ca"
-    },
-    "time": 1787143915366,
-    "type": "Profiler",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/YSAXKBwC09"
-    }
   }
 ]

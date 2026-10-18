@@ -1,0 +1,12 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"minecraft:chainmail_chestplate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"paladins:crusader_armor_legs"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"paladins:netherite_crusader_armor_legs"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"paladins:netherite_crusader_armor_legs","components":"{\"minecraft:enchantments\":{levels:{\"minecraft:protection\":1}},\"minecraft:item_name\":\u0027{\"color\":\"blue\",\"italic\":false,\"translate\":\"item.paladins.netherite_crusader_armor_legs\"}\u0027,\"minecraft:lore\":[\u0027{\"color\":\"blue\",\"italic\":false,\"text\":\"Rarity: Rare\"}\u0027]}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"archers:royal_longbow"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"archers:netherite_longbow"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"archers:netherite_rapid_crossbow"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"paladins:priest_robe_legs"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mutantmonsters:hulk_hammer"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
